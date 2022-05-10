@@ -45,7 +45,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   dice3d.addDicePreset({
     type: "d20",
     labels: [
-      "modules/petersDice/images/game_over.png",
+      "modules/petersDice/images/d20/game_over.png",
       "2",
       "3",
       "4",
@@ -64,7 +64,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
       "17",
       "18",
       "19",
-      "modules/petersDice/images/1up.png"
+      "modules/petersDice/images/d20/1up.png"
     ],
     system: "petersDice",
   });
