@@ -2,7 +2,7 @@
 	"name": "petersDice",
 	"title": "Dice So Nice - Peter's very own Dice Set",
 	"description": "Adds a set of 3D dice in the style of Peter's Wet Dreams to Dice-So-Nice ",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"minimumCoreVersion": "0.7.2",
 	"compatibleCoreVersion": "9",
 	"author": "Michael_Upton",
