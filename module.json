@@ -1,0 +1,21 @@
+{
+	"name": "PetersDice",
+	"title": "Dice So Nice - Peter's very own Dice Set",
+	"description": "Adds a set of 3D dice in the style of Peter's Wet Dreams to Dice-So-Nice ",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.7.2",
+	"compatibleCoreVersion": "9",
+	"author": "MichaelUpton",
+	"dependencies": [
+		{
+			"type": "module",
+			"name": "dice-so-nice"
+		}
+	],
+	"scripts": [
+		"petersDice.js"
+	],
+	"url": "https://github.com/EndlesNights/ApertureScienceWCDice",
+	"manifest": "https://raw.githubusercontent.com/EndlesNights/ApertureScienceWCDice/main/module.json",
+	"download": "https://github.com/EndlesNights/ApertureScienceWCDice/raw/main/ApertureScienceWCDice.zip"
+}
