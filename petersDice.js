@@ -8,16 +8,26 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   // });
   // dice3d.addDicePreset({
   // 	type: "d4",
-  // 	labels: "",
-  // 	modelFile: "modules/wcube/wcube_d4.glb",
+  // 	labels: [
+  //     "modules/petersDice/images/d20/game_over.png",
+  //     "2",
+  //     "3",
+  //     "modules/petersDice/images/d20/1up.png"
+  //   ],
   // 	system: "wcube"
   // });
-  // dice3d.addDicePreset({
-  // 	type: "d6",
-  // 	labels: "",
-  // 	modelFile: "modules/wcube/wcube_d6.glb",
-  // 	system: "wcube"
-  // });
+  dice3d.addDicePreset({
+  	type: "d6",
+  	labels: [
+      "modules/petersDice/images/d6/game_over.png",
+      "2",
+      "3",
+      "4",
+      "5",
+      "modules/petersDice/images/d6/blank.png"
+    ],
+  	system: "wcube"
+  });
   // dice3d.addDicePreset({
   // 	type: "d8",
   // 	labels: "",
