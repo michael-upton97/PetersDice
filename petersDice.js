@@ -55,7 +55,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
       "5",
       "6",
       "7",
-      "modules/petersDice/images/d12/potion_gold.png"
+      "modules/petersDice/images/d8/potion_gold.png"
     ],
     system: "petersDice_gold",
   });
@@ -69,7 +69,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   //     "5",
   //     "6",
   //     "7",
-  //     "modules/petersDice/images/d12/potion_silver.png"
+  //     "modules/petersDice/images/d8/potion_silver.png"
   //   ],
   //   system: "petersDice_silver",
   // });
