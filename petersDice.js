@@ -24,7 +24,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
       "3",
       "4",
       "5",
-      "modules/petersDice/images/d6/blank.png"
+      "modules/petersDice/images/d6/heart_sword.png"
     ],
   	system: "petersDice"
   });
