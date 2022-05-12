@@ -59,20 +59,20 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     ],
     system: "petersDice_gold",
   });
-  // dice3d.addDicePreset({
-  // 	type: "d8",
-  //   labels: [
-  //     "1",
-  //     "2",
-  //     "3",
-  //     "4",
-  //     "5",
-  //     "6",
-  //     "7",
-  //     "modules/petersDice/images/d8/potion_silver.png"
-  //   ],
-  //   system: "petersDice_silver",
-  // });
+  dice3d.addDicePreset({
+  	type: "d8",
+    labels: [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "modules/petersDice/images/d8/potion_silver.png"
+    ],
+    system: "petersDice_silver",
+  });
   dice3d.addDicePreset({
   	type: "d10",
     labels: [
@@ -89,22 +89,22 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     ],
     system: "petersDice_gold",
   });
-  // dice3d.addDicePreset({
-  // 	type: "d10",
-  //   labels: [
-  //     "1",
-  //     "2",
-  //     "3",
-  //     "4",
-  //     "5",
-  //     "6",
-  //     "7",
-  //     "8",
-  //     "9",
-  //     "modules/petersDice/images/d10/money_silver.png"
-  //   ],
-  //   system: "petersDice_silver",
-  // });
+  dice3d.addDicePreset({
+  	type: "d10",
+    labels: [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "modules/petersDice/images/d10/money_silver.png"
+    ],
+    system: "petersDice_silver",
+  });
   dice3d.addDicePreset({
   	type: "d100",
     labels: [
@@ -121,22 +121,22 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     ],
     system: "petersDice_gold",
   });
-  // dice3d.addDicePreset({
-  // 	type: "d100",
-  //   labels: [
-  //     "10",
-  //     "20",
-  //     "30",
-  //     "40",
-  //     "50",
-  //     "60",
-  //     "70",
-  //     "80",
-  //     "90",
-  //     "modules/petersDice/images/d100/key_silver.png"
-  //   ],
-  //   system: "petersDice_silver",
-  // });
+  dice3d.addDicePreset({
+  	type: "d100",
+    labels: [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "modules/petersDice/images/d100/key_silver.png"
+    ],
+    system: "petersDice_silver",
+  });
   dice3d.addDicePreset({
   	type: "d12",
     labels: [
@@ -155,24 +155,24 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     ],
     system: "petersDice_gold",
   });
-  // dice3d.addDicePreset({
-  // 	type: "d12",
-  //   labels: [
-  //     "1",
-  //     "2",
-  //     "3",
-  //     "4",
-  //     "5",
-  //     "6",
-  //     "7",
-  //     "8",
-  //     "9",
-  //     "10",
-  //     "11",
-  //     "modules/petersDice/images/d12/chest_silver.png"
-  //   ],
-  //   system: "petersDic_silver",
-  // });
+  dice3d.addDicePreset({
+  	type: "d12",
+    labels: [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "modules/petersDice/images/d12/chest_silver.png"
+    ],
+    system: "petersDic_silver",
+  });
   dice3d.addDicePreset({
     type: "d20",
     labels: [
