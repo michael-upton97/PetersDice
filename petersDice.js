@@ -1,5 +1,6 @@
 Hooks.once("diceSoNiceReady", (dice3d) => {
-  dice3d.addSystem({ id: "petersDice", name: "Peter's Custom Dice" }, false);
+  dice3d.addSystem({ id: "petersDice_gold", name: "Peter's Custom Dice - Gold" }, false);
+  dice3d.addSystem({ id: "petersDice_silver", name: "Peter's Custom Dice - Silver" }, false);
   // dice3d.addDicePreset({
   // 	type: "d2",
   // 	labels: "",
@@ -19,14 +20,26 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   dice3d.addDicePreset({
   	type: "d6",
   	labels: [
-      "modules/petersDice/images/d6/game_over.png",
+      "modules/petersDice/images/d6/game_over_gold.png",
       "2",
       "3",
       "4",
       "5",
-      "modules/petersDice/images/d6/heart_sword.png"
+      "modules/petersDice/images/d6/heart_sword_gold.png"
     ],
-  	system: "petersDice"
+  	system: "petersDice_gold"
+  });
+  dice3d.addDicePreset({
+  	type: "d6",
+  	labels: [
+      "modules/petersDice/images/d6/game_over_silver.png",
+      "2",
+      "3",
+      "4",
+      "5",
+      "modules/petersDice/images/d6/heart_sword_silver.png"
+    ],
+  	system: "petersDice_silver"
   });
   // dice3d.addDicePreset({
   // 	type: "d8",
@@ -55,7 +68,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   dice3d.addDicePreset({
     type: "d20",
     labels: [
-      "modules/petersDice/images/d20/game_over.png",
+      "modules/petersDice/images/d20/game_over_gold.png",
       "2",
       "3",
       "4",
@@ -74,8 +87,34 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
       "17",
       "18",
       "19",
-      "modules/petersDice/images/d20/1up.png"
+      "modules/petersDice/images/d20/1up_red.png"
     ],
-    system: "petersDice",
+    system: "petersDice_gold",
+  });
+  dice3d.addDicePreset({
+    type: "d20",
+    labels: [
+      "modules/petersDice/images/d20/game_over_silver.png",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "modules/petersDice/images/d20/1up_red.png"
+    ],
+    system: "petersDice_silver",
   });
 });
