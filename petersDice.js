@@ -171,7 +171,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
       "11",
       "modules/petersDice/images/d12/chest_silver.png"
     ],
-    system: "petersDic_silver",
+    system: "petersDice_silver",
   });
   dice3d.addDicePreset({
     type: "d20",
